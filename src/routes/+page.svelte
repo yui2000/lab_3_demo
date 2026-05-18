@@ -1,8 +1,8 @@
 <nav>
-            <a href="/" class="current">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
-            <a href="/resume">CV</a>
+            <a href="." class="current">Home</a>
+            <a href="projects">Projects</a>
+            <a href="contact">Contact</a>
+            <a href="resume">CV</a>
 </nav>
 
     <h1>Hirasawa Yui</h1>

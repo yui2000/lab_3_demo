@@ -1,8 +1,8 @@
 <nav>
-            <a href="/">Home</a>
-            <a href="/projects" class="current">Projects</a>
-            <a href="/contact">Contact</a>
-            <a href="/resume">CV</a>
+            <a href=".">Home</a>
+            <a href="projects" class="current">Projects</a>
+            <a href="contact">Contact</a>
+            <a href="resume">CV</a>
     </nav>
 
 <h1>Projects</h1>
