@@ -1,4 +1,15 @@
-body {
+<script>
+    export let data = {};
+</script>
+
+<article>
+        <h2>{data.title}</h2>
+        <img src={data.image} alt="">
+        <p>{data.description}</p>
+    </article>
+
+    <style>
+        body {
     max-width: 100ch;
     margin-inline: max(1em, (100% - 100ch) / 2);
     font-family: Arial;
@@ -74,13 +85,13 @@ img {
     max-width: 100%;
 }
 
-.projects {
+.projects-page {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
     gap: 1em;
 }
 
-.projects h2 {
+.projects-page h2 {
     margin: 0;
 }
 
@@ -88,9 +99,4 @@ article {
     grid-template-columns: subgrid;
     grid-row: span 3;
 }
-
-.home {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-    gap: 1em;
-}
+    </style>

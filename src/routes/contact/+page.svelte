@@ -1,9 +1,9 @@
-<nav>
+    <!-- <nav>
             <a href=".">Home</a>
             <a href="projects">Projects</a>
             <a href="contact" class="current">Contact</a>
             <a href="resume">CV</a>
-    </nav>
+    </nav> -->
 
     <h1>Contact me</h1>
 
